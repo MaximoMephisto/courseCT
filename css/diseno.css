@@ -1,0 +1,182 @@
+/*SROLLBAR*/
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: iset 0 0 6px rgba(0,0,0,0,3);
+    border-radius: 0;
+    background-color: rgb(17, 17, 17);
+}
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(17, 17, 17);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 0;
+    -webkit-box-shadow: iset 0 0 6px rgba(0,0,0,.3);
+    background-color: orangered;
+}
+#body-person {
+    background-color: rgb(17, 17, 17);
+    font-size: 20px;
+}
+#sidebar-person p {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+#sidebar-person a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#sidebar-person .navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+#sidebar-person .navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+#sidebar-person .line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #fff;
+    margin: 40px 0;
+}
+#sidebar-person .h1-person {
+    color: rgb(187, 51, 1);
+}
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar-person .wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#sidebar-person #sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: rgb(17, 17, 17);
+    color: whitesmoke;
+    transition: all 0.3s;
+}
+#sidebar-person #sidebar.active {
+    margin-left: -250px;
+}
+#sidebar-person #sidebar .sidebar-header {
+    padding: 20px;
+    background: rgb(17, 17, 17);
+}
+#sidebar-person #sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+}
+#sidebar-person #sidebar ul p {
+    color: rgb(17, 17, 17);
+    padding: 10px;
+}
+#sidebar-person #sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar-person #sidebar ul li a:hover {
+    color: rgb(17, 17, 17);
+    background: rgb(187, 51, 1);
+}
+#sidebar-person #sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: whitesmoke;
+    background: rgb(17, 17, 17);
+}
+#sidebar-person a[data-toggle="collapse"] {
+    position: relative;
+}
+#sidebar-person .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+#sidebar-person ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: rgb(17, 17, 17);
+}
+#sidebar-person ul.CTAs {
+    padding: 20px;
+}
+#sidebar-person ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#sidebar-person .btn-person {
+    color: black;
+    background-color: rgb(187, 51, 1);
+    border: 1px solid gray;
+}
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+#content .nav-color-person {
+    color: whitesmoke;
+    background-color: gray;
+    border-radius: 20px;
+}
+#content #sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: rgba(245, 245, 245, 0);
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+/*CONTENT*/
+#card {
+    background-color: gray;
+    border-radius: 15px;
+}
+#card p {
+    color: black;
+}
+.fa-bitcoin {
+    font-size: 50px;
+}
+#card-info .fa-calendar-alt {
+    font-size: 50px;
+    color: rgb(187, 51, 1);
+}
+#trading-information h1 {
+    color: rgb(187, 51, 1);
+}
+#trading-information h3 {
+    color: whitesmoke;
+}
