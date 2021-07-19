@@ -178,5 +178,11 @@ a[aria-expanded="true"] {
     color: rgb(187, 51, 1);
 }
 #trading-information h3 {
-    color: whitesmoke;
+    color: gray;
+}
+#cc-information h1 {
+    color: rgb(187, 51, 1);
+}
+#cc-information h3 {
+    color: gray;
 }

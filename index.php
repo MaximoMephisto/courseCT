@@ -45,7 +45,7 @@
                         <a href="#"><i class="fas fa-info-circle"></i> Information</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fas fa-calendar-alt"></i> Registration</a>
+                        <a href="#"><i class="fas fa-calendar-alt"></i> Calendary</a>
                     </li>
                 </ul>
                 <div class="col-12 col-sm-12 text-center">
@@ -73,7 +73,7 @@
                 </nav>
                 <div class="container">
                     <div class="row">
-                        <div id="card" class="col-12 col-sm-5">
+                        <div id="card" class="col-12 col-sm-5 mb-5">
                             <div class="row">
                                 <div class="col-3 col-sm-3 text-center my-2">
                                     <i class="fab fa-bitcoin"></i>
@@ -90,7 +90,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="card-info" class="col-12 col-sm-6 text-end">
+                        <div id="card-info" class="col-12 col-sm-6 text-end mb-5">
                             <p>
                                 With our course, understanding graphics is easy. Sign up for our next course opening
                             </p>
@@ -102,23 +102,54 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 mt-5">
+                        <div class="col-12 col-sm-12 mt-5 mb-5">
                             <canvas id="barChart" width="100" height="50"></canvas>
                         </div>
                     </div>
                 </div>
                 <div id="trading-information" class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 text-center mt-5">
+                        <div class="col-12 col-sm-12 text-center mt-5 mb-5">
                             <h1>Learn trading</h1>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6">
+                        <div class="col-12 col-sm-12">
                             <h3>
-                            To teach you how to trade, we will start by introducing you to the world of cryptocurrencies.
-                            You will learn to read charts and know how to invest at the right time to generate profits.
+                                To teach you how to trade, we will start by introducing you to the world of cryptocurrencies.
+                                You will learn to read charts and know how to invest at the right time to generate profits
                             </h3>
+                        </div>
+                        <div class="col-12 col-sm-12">
+                            <h5>
+                                The courses are totally online, each student chooses their time to see the classes
+                            </h5>
+                        </div>
+                        <div class="col-12 col-sm-12 text-center">
+                            <button class="btn btn-person">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="cc-information" class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 text-center mt-5 mb-5">
+                            <h1>Cryptocurrency management</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12">
+                            <h3>
+                            Unlike the trading course, in this one we teach you how cryptocurrencies are handled, what they are, and how to invest.
+                            If you want to generate profits reading graphs, and in direct contact with the management of crypto, we recommend the trading course
+                            </h3>
+                        </div>
+                        <div class="col-12 col-sm-12">
+                            <h5>
+                                The courses are totally online, each student chooses their time to see the classes
+                            </h5>
+                        </div>
+                        <div class="col-12 col-sm-12 text-center">
+                            <button class="btn btn-person">Sign up</button>
                         </div>
                     </div>
                 </div>
