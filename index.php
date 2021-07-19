@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coin Trader</title>
+    <link rel="icon" type="image/png" href="css/images/CT-logo.png">
     <link rel="stylesheet" href="css/diseno.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/ff041f84fb.js" crossorigin="anonymous"></script>
@@ -45,7 +46,7 @@
                         <a href="#"><i class="fas fa-info-circle"></i> Information</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fas fa-calendar-alt"></i> Calendary</a>
+                        <a href="#"><i class="fas fa-calendar-alt"></i> Calendar</a>
                     </li>
                 </ul>
                 <div class="col-12 col-sm-12 text-center">
@@ -109,47 +110,129 @@
                 </div>
                 <div id="trading-information" class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 text-center mt-5 mb-5">
-                            <h1>Learn trading</h1>
+                        <div class="col-12 col-sm-12 mt-5">
+                            <h4>Learn trading</h4>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-12">
-                            <h3>
+                        <div class="col-12 col-sm-6">
+                            <h5>
                                 To teach you how to trade, we will start by introducing you to the world of cryptocurrencies.
                                 You will learn to read charts and know how to invest at the right time to generate profits
-                            </h3>
-                        </div>
-                        <div class="col-12 col-sm-12">
-                            <h5>
-                                The courses are totally online, each student chooses their time to see the classes
                             </h5>
                         </div>
-                        <div class="col-12 col-sm-12 text-center">
-                            <button class="btn btn-person">Sign up</button>
+                        <div class="col-12 col-sm-6 text-center">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="col-12 col-sm-12 mt-2">
+                            <h6>
+                                The courses are totally online, each student chooses their time to see the classes
+                            </h6>
                         </div>
                     </div>
                 </div>
                 <div id="cc-information" class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 text-center mt-5 mb-5">
-                            <h1>Cryptocurrency management</h1>
+                        <div class="col-12 col-sm-12 mt-5">
+                            <h4>Cryptocurrency management</h4>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-12">
-                            <h3>
+                        <div class="col-12 col-sm-6">
+                            <h5>
                             Unlike the trading course, in this one we teach you how cryptocurrencies are handled, what they are, and how to invest.
                             If you want to generate profits reading graphs, and in direct contact with the management of crypto, we recommend the trading course
-                            </h3>
-                        </div>
-                        <div class="col-12 col-sm-12">
-                            <h5>
-                                The courses are totally online, each student chooses their time to see the classes
                             </h5>
                         </div>
+                        <div class="col-12 col-sm-6 text-center">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="col-12 col-sm-12 mt-2">
+                            <h6>
+                                The courses are totally online, each student chooses their time to see the classes
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div id="information" class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 mt-5">
+                            <h4>Information</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <h5>
+                                We are a company founded by traders who seek to promote the management of cryptocurrencies through courses where you can learn to be a professional trader.
+                                As the course progresses, we as a company also advance, thus becoming a community capable of sustaining this decentralized economy that are cryptocurrencies
+                            </h5>
+                        </div>
+                        <div class="col-12 col-sm-6 text-center">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="col-12 col-sm-12 mt-2 mb-5">
+                            <h6>
+                                We take care of teaching what is necessary for safe trading
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div id="calendary" class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 mt-5">
+                            <h4>Start calendar</h4>
+                        </div>
+                        <div class="col-12 col-sm-12">
+                            <h6>
+                                Registration begins on the date marked
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-12 col-sm-12 text-center">
-                            <button class="btn btn-person">Sign up</button>
+                            <div class="calendary">
+                                <h4>September</h4>
+                                <ol>
+                                    <li class="day-name">M</li>
+                                    <li class="day-name">T</li>
+                                    <li class="day-name">W</li>
+                                    <li class="day-name">T</li>
+                                    <li class="day-name">F</li>
+                                    <li class="day-name">S</li>
+                                    <li class="day-name">S</li>
+                                    <li class="first-day">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                    <li>6</li>
+                                    <li>7</li>
+                                    <li>8</li>
+                                    <li>9</li>
+                                    <li>10</li>
+                                    <li>11</li>
+                                    <li>12</li>
+                                    <li>13</li>
+                                    <li>14</li>
+                                    <li class="init-course">15</li>
+                                    <li>16</li>
+                                    <li>17</li>
+                                    <li>18</li>
+                                    <li>19</li>
+                                    <li>20</li>
+                                    <li>21</li>
+                                    <li>22</li>
+                                    <li>23</li>
+                                    <li>24</li>
+                                    <li>25</li>
+                                    <li>26</li>
+                                    <li>27</li>
+                                    <li>28</li>
+                                    <li>29</li>
+                                    <li>30</li>
+                                    <li>31</li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
                 </div>

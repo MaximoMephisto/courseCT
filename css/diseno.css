@@ -174,15 +174,56 @@ a[aria-expanded="true"] {
     font-size: 50px;
     color: rgb(187, 51, 1);
 }
-#trading-information h1 {
+#trading-information h4 {
     color: rgb(187, 51, 1);
 }
-#trading-information h3 {
+#trading-information h5 {
     color: gray;
 }
-#cc-information h1 {
+#trading-information .fa-chart-line {
+    font-size: 80px;
     color: rgb(187, 51, 1);
 }
-#cc-information h3 {
+#cc-information h4 {
+    color: rgb(187, 51, 1);
+}
+#cc-information h5 {
     color: gray;
+}
+#cc-information .fa-coins {
+    font-size: 80px;
+    color: rgb(187, 51, 1);
+}
+#information h4 {
+    color: rgb(187, 51, 1);
+}
+#information h5 {
+    color: gray;
+}
+#information .fa-info-circle {
+    font-size: 80px;
+    color: rgb(187, 51, 1);
+}
+.calendary {
+    width: 100%;
+}
+#calendary h4 {
+    color: rgb(187, 51, 1);
+}
+#calendary ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+#calendary .first-day {
+    grid-column-start: 3;
+}
+#calendary .day-name {
+    font-weight: bold;
+    color: black;
+    background-color: gray;
+}
+#calendary .init-course {
+    background-color: rgb(187, 51, 1);
+    border-radius: 20px;
 }
