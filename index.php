@@ -14,45 +14,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js" integrity="sha512-lUsN5TEogpe12qeV8NF4cxlJJatTZ12jnx9WXkFXOy7yFbuHwYRTjmctvwbRIuZPhv+lpvy7Cm9o8T9e+9pTrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body id="body-person">
+<body class="body">
     <section id="sidebar-person">
         <div class="wrapper">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
-                <div class="sidebar-header">
-                    <h1 class="h1-person">CT</h1>
-                </div>
-                <ul class="list-unstyled components sticky-top">
-                    <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-chart-bar"></i> Trading</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="#">Learn</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="active">
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-graduation-cap"></i> Courses</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li>
-                                <a href="#">Trading</a>
-                            </li>
-                            <li>
-                                <a href="#">Cryptocurrency management</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fas fa-info-circle"></i> Information</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fas fa-calendar-alt"></i> Calendar</a>
-                    </li>
-                </ul>
-                <div class="col-12 col-sm-12 text-center">
-                    <button class="btn btn-person">Contact us</button>
-                </div>
-            </nav>
             <!-- Page Content  -->
             <div id="content">
                 <nav class="navbar navbar-expand-lg nav-color-person sticky-top">
@@ -63,18 +27,35 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="nav navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Trading</a>
+                                    <a class="nav-link" href="#trading-information">Trading</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Cryptocurrency management</a>
+                                    <a class="nav-link" href="#cc-information">Cryptocurrency management</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Information
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#information">About us</a>
+                                        <a class="dropdown-item" href="#calendary">Calendar</a>
+                                    <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="">Contact</a>
+                                    </div>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="d-inline">
+                            <button class="switch" id="switch">
+                                <span class="span-person"><i class="fas fa-sun"></i></span>
+                                <span class="span-person"><i class="fas fa-moon"></i></span>
+                            </button>
                         </div>
                     </div>
                 </nav>
                 <div class="container">
                     <div class="row">
-                        <div id="card" class="col-12 col-sm-5 mb-5">
+                        <div id="card" class="col-12 col-sm-5 mt-5 mb-5">
                             <div class="row">
                                 <div class="col-3 col-sm-3 text-center my-2">
                                     <i class="fab fa-bitcoin"></i>
@@ -91,7 +72,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="card-info" class="col-12 col-sm-6 text-end mb-5">
+                        <div id="card-info" class="col-12 col-sm-6 text-end mt-5 mb-5">
                             <p>
                                 With our course, understanding graphics is easy. Sign up for our next course opening
                             </p>
@@ -157,7 +138,7 @@
                 <div id="information" class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 mt-5">
-                            <h4>Information</h4>
+                            <h4>About us</h4>
                         </div>
                     </div>
                     <div class="row">
@@ -189,7 +170,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-12 text-center">
+                        <div class="col-12 col-sm-12 text-center mb-5">
                             <div class="calendary">
                                 <h4>September</h4>
                                 <ol>
@@ -237,11 +218,30 @@
                     </div>
                 </div>
             </div>
+            <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-sm-4 text-center my-2">
+                            <img class="img-person" src="css/images/CT-logo.png" alt="LOGO">
+                        </div>
+                        <div class="col-6 col-sm-2 text-center my-5">
+                            <a href="">Suport center</a>
+                        </div>
+                        <div class="col-6 col-sm-2 text-center my-5">
+                            <a href="">Notice</a>
+                        </div>
+                        <div class="col-6 col-sm-2 text-center my-5">
+                            <a href="">Report</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </section>
 
     <script src="js/myChart.js"></script>
     <script src="js/barChart.js"></script>
+    <script src="js/theme.js"></script>
 
 </body>
 </html>
