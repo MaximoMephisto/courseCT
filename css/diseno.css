@@ -188,3 +188,17 @@ a[aria-expanded="true"] {
     color: #fff;
     text-decoration: none;
 }
+/*register*/
+#body-register {
+    background-color: rgb(17, 17, 17);
+}
+#body-register .modal-content {
+    margin-top: 50%;
+    background-color: whitesmoke;
+}
+#body-register input {
+    border-color: black;
+}
+#body-register textarea {
+    border-color: black;
+}
