@@ -15,7 +15,7 @@ $validar_login = mysqli_query($conexion, "SELECT *
 
 if (mysqli_num_rows($validar_login) > 0) {
     $_SESSION['usuario'] = $nombre;
-    header("location: course");
+    header("location: lenguaje");
 
     exit();
 

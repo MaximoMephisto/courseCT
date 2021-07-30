@@ -229,3 +229,34 @@ a[aria-expanded="true"] {
     color: black;
     margin-right: 15px;
 }
+/*lenguaje*/
+#body-lenguaje {
+    background-color: gray;
+}
+#body-lenguaje .bienvenida {
+    font-size: 25px;
+    color: black;
+}
+#body-lenguaje .card {
+    width: 100%;
+    background-color: darkgray;
+    border-color: orangered;
+}
+/*course*/
+#body-course {
+    background-color: rgb(17, 17, 17);
+}
+.usuario-name {
+    color: whitesmoke;
+    font-size: 20px;
+    border: 1px solid orangered;
+    padding: 5px;
+    border-radius: 10px;
+}
+#body-course .card {
+    background-color: darkgray;
+}
+#body-course .btn-link {
+    text-decoration: none;
+    color: orangered;
+}
