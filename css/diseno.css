@@ -202,3 +202,30 @@ a[aria-expanded="true"] {
 #body-register textarea {
     border-color: black;
 }
+/*login*/
+#body-login {
+    background-color: rgb(17, 17, 17);
+}
+.h1-login {
+    font-size: 100px;
+    color: rgb(187, 51, 1);
+}
+#body-login .modal-content {
+    margin-top: 50%;
+    background-color: rgba(0,0,0,.3);
+}
+#body-login textarea {
+    background-color: rgba(0,0,0,.3);
+    border-color: rgb(187, 51, 1);
+}
+#body-login input {
+    background-color: rgba(0,0,0,.3);
+    border-color: rgb(187, 51, 1);
+}
+#body-login .btn-person {
+    background-color: rgb(187, 51, 1);
+}
+.h3-login {
+    color: black;
+    margin-right: 15px;
+}

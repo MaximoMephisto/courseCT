@@ -21,7 +21,7 @@
                     <h1 class="h1-person">CT</h1>
                     <h5>Users</h5>
                 </div>
-                <form class="col-12 col-sm-12 mt-5 p-1" action="register_funcion.php" method="POST">
+                <form class="col-12 col-sm-12 mt-5 p-1" action="register_database.php" method="POST">
                     <div class="form-group">
                         <textarea class="form-control" id="correo" name="correo" require rows="1" placeholder="example@mail.com" required></textarea>
                     </div>
@@ -29,7 +29,7 @@
                         <textarea class="form-control" id="nombre" name="nombre" require rows="1" placeholder="Name" required></textarea>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="password" class="form-control" id="contrasena" name="contrasena" require rows="1" placeholder="Password" required></input>
+                        <input type="password" class="form-control" id="clave" name="clave" require rows="1" placeholder="Password" required></input>
                     </div>
                     <div class="col-12 col-sm-12 text-end mt-3 mb-1">
                         <button class="btn btn-danger">Send</button>
