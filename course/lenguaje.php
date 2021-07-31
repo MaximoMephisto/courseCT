@@ -33,7 +33,7 @@ if (!isset($_SESSION['usuario'])) {
 <body id="body-lenguaje">
     <div class="col-12 col-sm-12 text-center mt-3">
         <div class="bienvenida">
-            <?php echo "¡Welcome! " .$_SESSION['usuario'] ."<br> Escoge tu idioma"?>
+            <?php echo "¡Welcome! " .$_SESSION['usuario'] ."<br> Select your language"?>
         </div>
     </div>
     <div class="container">

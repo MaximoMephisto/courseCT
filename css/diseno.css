@@ -269,13 +269,27 @@ a[aria-expanded="true"] {
     height: 80%;
     border-radius: 5px;
 }
-/*scroll-progress*/
+#link a {
+    color: rgb(255, 196, 0);
+}
+#data .card-data {
+    margin-top: 15%;
+}
+#data .card-header {
+    font-size: 25px;
+}
+#data .card-body {
+    font-size: 20px;
+    height: 300px;
+    overflow: auto;
+}
 
+/*scroll-progress*/
 #scroll-progress {
     position: fixed;
     top: 0;
     width: 0%;
     height: 4px;
-    background: #7983ff;
+    background: rgb(255, 196, 0);
     z-index: 10000;
 }
