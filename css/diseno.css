@@ -244,7 +244,7 @@ a[aria-expanded="true"] {
 }
 /*course*/
 #body-course {
-    background-color: rgb(17, 17, 17);
+    background-image: url("images/trading.jpg");
 }
 .usuario-name {
     color: whitesmoke;
@@ -253,10 +253,29 @@ a[aria-expanded="true"] {
     padding: 5px;
     border-radius: 10px;
 }
+#body-course .accordion {
+    margin-top: 15%;
+}
 #body-course .card {
     background-color: darkgray;
 }
 #body-course .btn-link {
     text-decoration: none;
-    color: orangered;
+    color: rgb(187, 51, 1);
+    font-weight: bold;
+}
+#body-course .img-person {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+/*scroll-progress*/
+
+#scroll-progress {
+    position: fixed;
+    top: 0;
+    width: 0%;
+    height: 4px;
+    background: #7983ff;
+    z-index: 10000;
 }
