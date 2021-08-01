@@ -219,6 +219,80 @@ if (!isset($_SESSION['usuario'])) {
                                         Trading y billetera margin: Contamos con tres apartados, el clásico y el avanzado. En ambos casos podremos realizar trading y comprar o vender criptomonedas de manera rápida. <br>
                                         Es para usuarios más avanzados en el área, pero se puede probar realizando seguimientos a monedas sin gastar o invertir dinero.
                                     </li>
+                                    <li>
+                                        Tokens de acciones: Esta opción de Binance finalizará el 14 de octubre.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                Binance P2P
+                            </div>
+                            <div class="card-body">
+                                Con la compra de criptomonedas P2P de Binance, tenemos diversas ventajas sobre otro tipo de compras. Como por ejemplo: <br>
+                                <ul>
+                                    <li>
+                                        La verificación de identidad de los vendedores de criptodivisas.
+                                    </li>
+                                    <li>
+                                        Los precios y las opciones de pago dentro de horarios laborales.
+                                    </li>
+                                    <li>
+                                        Podremos ver la reputación del vendedor.
+                                    </li>
+                                </ul>
+                                Recomendamos a los nuevos inversores de criptomonedas que compran desde Binance P2P verificar del vendedor: <br>
+                                <ul>
+                                    <li>
+                                        Reputación de más del 95% 
+                                    </li>
+                                    <li>
+                                        Tilde de verificación <i class="fas fa-check-circle"></i>
+                                    </li>
+                                    <li>
+                                        Número de ordenes.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                Coin Market Cap
+                            </div>
+                            <div class="card-body">
+                                Es una Web especializada en proveer información de todas las criptodivisas a traders e inversores. <br>
+                                es una de las fuentes más confiables para encontrar datos estadísticos sobre las criptodivisas en circulación. 
+                                Su página principal es una de las más visitadas por los entusiastas e inversores en el terreno de las monedas digitales. <br>
+                                Dentro de su plataforma podremos informarnos sobre: <br>
+                                <ul>
+                                    <li>
+                                        Valor de criptomonedas dentro de un ranking.
+                                    </li>
+                                    <li>
+                                        Precio de la criptomoneda e información relevante.
+                                    </li>
+                                    <li>
+                                        Cotización de la criptodivisa y datos historicos sobre la misma.
+                                    </li>
+                                    <li>
+                                        Exchanges donde puede comprar la criptodivisa que desea.
+                                    </li>
+                                    <li>
+                                        Criptomonedas en tendencia.
+                                    </li>
+                                    <li>
+                                        Nuevas criptomonedas en el mercado.
+                                    </li>
+                                    <li>
+                                        Capitalización compuesta y dominio del Bitcoin, Ethereum, entre otras.
+                                    </li>
+                                    <li>
+                                        Criptomonedas en circulación.
+                                    </li>
+                                    <li>
+                                        Herramientas 
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -230,13 +304,6 @@ if (!isset($_SESSION['usuario'])) {
     <a href="close_session.php">
         <button class="btn btn-danger">CERRAR</button>
     </a>
-    <div class="col-12 text-center">
-        <?php 
-        
-         echo "Hola " .$_SESSION['usuario'];
-
-        ?>
-    </div>
 
     <script src="../js/scroll.js"></script>
 
