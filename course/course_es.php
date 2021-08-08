@@ -296,6 +296,17 @@ if (!isset($_SESSION['usuario'])) {
                                 </ul>
                             </div>
                         </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                Wallet
+                            </div>
+                            <div class="card-body">
+                                Es uno de los elementos más importantes utilizados en este mundo de las criptomonedas.
+                                son el puente que nos permiten administrar nuestras criptomonedas. Una pieza de software
+                                o de hardware con los que realizar las operaciones de recepción y envío a través de la red 
+                                blockchain de cada criptomoneda.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
