@@ -304,7 +304,347 @@ if (!isset($_SESSION['usuario'])) {
                                 Es uno de los elementos más importantes utilizados en este mundo de las criptomonedas.
                                 son el puente que nos permiten administrar nuestras criptomonedas. Una pieza de software
                                 o de hardware con los que realizar las operaciones de recepción y envío a través de la red 
-                                blockchain de cada criptomoneda.
+                                blockchain de cada criptomoneda. <br>
+                                Los tipos de Wallet que hay son: <br>
+                                <ul>
+                                    <li>
+                                        Web wallets o billeteras online: Una empresa se hace responsable de la seguridad de 
+                                        nuestras criptodivisas. Son muy utilizadas.
+                                    </li>
+                                    <li>
+                                        Mobile wallets o billeteras para teléfonos: Comunmente son aplicaciones de las mimas 
+                                        web wallets.
+                                    </li>
+                                    <li>
+                                        Desktop wallets o billeteras de computadoras: En estos casos, tratamos con un software
+                                        para una computadora que esta creado para operar como una wallet, algunas de estas utilizan
+                                        una copia externa de la blockchain y de esta manera acceder a la blockchain.
+                                    </li>
+                                    <li>
+                                        Hardware wallets o billeteras hardware: Estas billeteras son similares a los pendrives, su uso 
+                                        es bastante común y seguro.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                Metamask
+                            </div>
+                            <div class="card-body">
+                                Es un monedero de criptomonedas que puede ser usado en los navegadores Chrome, Firefox y Brave. También 
+                                es una extensión del navegador, esto significa que funciona como un puente entre los navegadores normales 
+                                y la blockchain Ethereum. <br>
+                                ¿Por qué usar Metamask? <br>
+                                <ul>
+                                    <li>
+                                        Código abierto: Significa que el software de Metamask puede ser revisado y actualizado por la misma 
+                                        comunidad.
+                                    </li>
+                                    <li>
+                                        Configuración DJ: Ayuda a los usuarios a respaldar sus cuentas.
+                                    </li>
+                                    <li>
+                                        Compra integrada: Puedes comprar criptodivisas desde la misma App Web.
+                                    </li>
+                                    <li>
+                                        Atención al cliente.
+                                    </li>
+                                    <li>
+                                        Interfaz sencilla.
+                                    </li>
+                                    <li>
+                                        Almacenamiento local de claves: Las claves se almacenan en el navegador del usuario ¡más control para ti!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                ¿Existen otras Wallets además de Metamask?
+                            </div>
+                            <div class="card-body">
+                                Si, y son tan o mejores que Metamask. A continuación te pondremos una lista con nuestras recomendaciones para 
+                                wallets.
+                                <ul>
+                                    <li>
+                                        Coinbase: Es una de las opciones más seguras de almacenamiento digital para criptomonedas. A pesar 
+                                        de tratarse de una app móvil, Coinbase Wallet ofrece un nivel de seguridad muy similar al de las 
+                                        hardware wallets. 
+                                    </li>
+                                    <li>
+                                        Coinomi: Se trata de un software de código abierto que almacena los criptoactivos encriptados de forma 
+                                        local en tus dispositivos como celular o computador.
+                                        Puedes usarla en tu Smartphone con iOs o Android, también en tu pc con Windows, macOs e incluso con Linux.
+                                    </li>
+                                    <li>
+                                        Trust Wallet: Es una app que en un principio estaba destinada a la criptomoneda Litecoins, pero hoy en día 
+                                        acepta muchas de las más populares. Lo interesante a su vez de esta wallet es que nos paga un interés que 
+                                        ronda entre el 5 y el 7% por determinadas criptos, ya que las pone a trabajar por nosotros con el sistema 
+                                        de staking.
+                                    </li>
+                                    <li>
+                                        Bitcoin Core: Una de las precursoras de todo el mundo wallet. Una wallet bitcoin. Es de código abierto, 
+                                        por lo que todos los cambios y mejoras son propuestos por los desarrolladores que deseen aportar al sistema. 
+                                        Además se mantiene con una actividad muy alta de desarrollo. Bitcoin Core, ofrece niveles de seguridad, privacidad 
+                                        y estabilidad bastante altos, pero está diseñado principalmente para usuarios avanzados. Una particularidad de este 
+                                        cliente es que al ejecutarlo en tu ordenador, te conviertes en un nodo de la red y terminas ejecutando un full client. 
+                                        De esa forma, contribuyes a la descentralización e integridad de la red bitcoin. <br>
+                                        <b>No la recomendamos para principiantes.</b>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="trading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 card-data">
+                        <div class="col-12 col-sm-12 text-center">
+                            <a href="#">
+                                <h3>
+                                    Trading
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                Trading
+                            </div>
+                            <div class="card-body">
+                                El trading de criptomonedas significa tomar una posición financiera en dirección al precio de una criptomoneda 
+                                frente al dólar (en pares de criptomonedas/dólares) o contra otra cripto, a través de pares cripto a cripto. <br>
+                                <b>¿Es seguro?</b> <br>
+                                El trading es una actividad muy rentable pero <b>debe ir acompañado de educación</b>, porque se puede convertir en una 
+                                bomba de tiempo si no se sabe manejar. Para aprender a invertir es necesario dedicarle tiempo a realizar un 
+                                plan de trabajo como en todos los negocios. Para lograr éxito en esta actividad debe dedicar tiempo a analizar los 
+                                mercados, las posibilidades de inversión y el movimiento de sus inversiones. <br>
+                                <b>¿En qué tengo que tener cuidado?</b> <br>
+                                <ul>
+                                    <li>
+                                        Información falsa: La web está llena de información sobre trading y no toda es verdad. Lo recomendado es que 
+                                        evalué la experiencia de varias personas, realicé estudios seguros con empresas dedicadas a las criptomonedas y trading, 
+                                        lea y estudie detenidamente cuando quiera hacer una inversión, entre en grupos de Telegram donde la charla sobre
+                                        criptodivisas e inversiones es constante (es una manera práctica de estar informado sobre el mercado de las cripto).
+                                    </li>
+                                    <li>
+                                        No saber su perfil de inversión: este es uno de los errores más comunes y es no saber cuánto está dispuesto a perder, en qué 
+                                        tiempo quiere sacar sus retornos o si este es un capital de riesgo.
+                                    </li>
+                                    <li>
+                                        Invertir sin práctica: Además de poseer una fuerte información sobre la teoria del Trading, es importante llevar la practica
+                                        de manera personal. ¿Cómo practicar sin perder dinero? Pues bien, luego de aprender algunos aspectos sobre el trading, le
+                                        permitiremos acceder a plataformas online donde podrá practicar el trading sin costo alguno. 
+                                    </li>
+                                    <li>
+                                        Estafas: Desafortunadamente muchos se aprovechan de la falta de conocimiento de los inversionistas para quitarles el dinero.
+                                        En este mundo de la inversión en criptodivisas, es común toparse con criptomonedas copias o páginas que prometen algo que no cumpliran.
+                                    </li>
+                                    <li>
+                                        Trading casino: Esta es una de las dificultades más comunes y difíciles de identificar. El trading conlleva a un manejo emocional 
+                                        muy desarrollado; esta es una actividad altamente emocionante y puede pasar que el inversionista empiece a ganar muy fácil y piense 
+                                        que siempre va a ser así y se convierta en una apuesta y pierda todo. 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                ¿Qué determina el precio de una criptomoneda?
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        Blockchain, además de ser la base para la creación de criptomonedas, la tecnología blockchain tiene grandes implicaciones en la economía global, 
+                                        incluyendo su posible aplicación en contratos inteligentes y en el campo del Internet de las Cosas. Como las criptomonedas solo 
+                                        fueron creadas en la última década y no se consideran moneda de curso legal, no están sujetas a las mismas fuerzas que los mercados 
+                                        tradicionales. Esto significa que operar criptomonedas no es lo mismo que el trading en los mercados financieros tradicionales.
+                                    </li>
+                                    <li>
+                                        Debido a la naturaleza descentralizada de las criptomonedas, los movimientos de sus precios se ven menos afectados por factores como la publicación 
+                                        de datos económicos, la incertidumbre política y los cambios en las tasas de interés. Además, debido a que son un nuevo tipo de instrumento financiero, 
+                                        las criptomonedas tienen relativamente pocos activos correlacionados que podrían afectar los movimientos de sus precios.
+                                    </li>
+                                </ul>
+                                Los precios de las criptomonedas pueden verse afectados por varios factores, como los cambios en las tecnologías blockchain y los intentos regulatorios 
+                                para controlar su aceptabilidad y "transabilidad" en los mercados financieros. Noticias como desacuerdos sobre cómo se debe actualizar o procesar una 
+                                criptomoneda en particular también pueden afectar su precio. Es probable que cualquier falla de seguridad expuesta por hackers también afecte negativamente 
+                                el precio de una criptomoneda. Por supuesto, las políticas y regulaciones gubernamentales que buscan prohibir o limitar la venta de criptomonedas también 
+                                pueden afectar su precio.
+                            </div>
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                Herramientas de Fibonacci 
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-dark">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Retrocesos de Fibonacci</th>
+                                            <td colspan="2" class="table-active">
+                                                Un retroceso de Fibonacci es un término utilizado en el análisis técnico que se refiere a áreas de soporte o resistencia. Los niveles de retroceso 
+                                                de Fibonacci utilizan líneas horizontales para indicar dónde están los niveles de resistencia y resistencia posibles. Cada nivel está asociado con 
+                                                un porcentaje. El porcentaje es cuánto de un movimiento anterior ha retrocedido el precio. Los principales niveles de retroceso de Fibonacci son 
+                                                <b>23.6%, 38.2%, 61.8% y 78.6%</b>. Si bien no es oficialmente una proporción de Fibonacci, también se usa el 50%.
+                                            </td>
+                                        </tr>
+                                        <tr> 
+                                            <th scope="row">Extensiones de Fibonacci</th>
+                                            <td colspan="2" class="table-active">
+                                                Las extensiones de Fibonacci son una herramienta que los operadores pueden usar para establecer objetivos de ganancias o estimar qué tan lejos puede 
+                                                viajar el precio después de que finalice un movimiento de retroceso. Los niveles de las extensiones de Fibonacci también son áreas posibles donde el 
+                                                precio puede revertir su dirección. <br> 
+                                                Son una forma de establecer objetivos de precios o encontrar áreas proyectadas de soporte o resistencia cuando el precio se está moviendo hacia un 
+                                                área donde otros métodos para encontrar soportes o resistencias no son aplicables o evidentes. Si el precio se mueve a través de un nivel de 
+                                                extensión, puede continuar moviéndose hacia el siguiente. Dicho esto, <b>las extensiones de Fibonacci son áreas de posible interés</b>.  
+                                                Es posible que el precio no se detenga o retroceda en el nivel, pero el área que la rodea puede ser importante.
+                                            </td>  
+                                        </tr>
+                                        <tr> 
+                                            <th scope="row">Arcos de Fibonacci</th>
+                                            <td colspan="2" class="table-active">
+                                                Los arcos de Fibonacci son semicírculos que se extienden desde una línea de tendencia calculados con base en los números de Fibonacci. El primer y tercer 
+                                                arco se basan en las relaciones de Fibonacci 0.382 (38.2%) y 0.618 (61.8%) respectivamente. El arco medio es establecido en el nivel <b>0.50</b> o de <b>50%</b>.
+                                                Los arcos de Fibonacci se usan para identificar niveles de resistencia y soporte o puntos de inflexión de la tendencia.
+                                            </td>
+                                        </tr>
+                                        <tr> 
+                                            <th scope="row">Abanico de Fibonacci</th>
+                                            <td colspan="2" class="table-active">
+                                                Las líneas del abanico de Fibonacci son líneas de tendencia basadas en las relaciones de Fibonacci. Estas líneas se pueden usar para estimar niveles de 
+                                                soporte/resistencia para movimientos alcistas o bajistas o las posibles zonas de reversión del mercado. Tal como ocurre con los retrocesos de Fibonacci, 
+                                                estos puntos de inversión suponen que el movimiento es de naturaleza correctiva. Las líneas del abanico de Fibonacci permiten a los operadores anticipar 
+                                                los puntos finales de estos movimientos en contra de la tendencia.
+                                            </td>
+                                        </tr>
+                                        <tr> 
+                                            <th scope="row">Zonas de tiempo de Fibonacci</th>
+                                            <td colspan="2" class="table-active">
+                                                Las Zonas de Tiempo de Fibonacci son líneas verticales calculadas con la secuencia de Fibonacci. Estas líneas se extienden a lo largo del eje X y se usan como una 
+                                                forma para pronosticar las posibles reversiones del precio con base en el tiempo. Las zonas de tiempo de Fibonacci son más bien áreas de inversión potenciales del 
+                                                mercado en el tiempo que los operadores deben vigilar conforme los precios se aproximan a esta zona.
+                                            </td>  
+                                        </tr>
+                                    </tbody> 
+                                </table> 
+                            </div> 
+                        </div>
+                        <div class="card mt-5">
+                            <div class="card-header text-center">
+                                Niveles de Fibonacci en gráficos
+                            </div>
+                            <div class="card-body">
+                                Al colocar los niveles de Fibonacci en un gráfico de precios, tal como los retrocesos de Fibonacci en el siguiente ejemplo, nos permiten dividir los movimientos de las cotizaciones en 
+                                rangos o niveles que son proporcionales a los radios mencionados con anterioridad. Como ya se explicó, cada uno de estos niveles se convierte en una resistencia o un soporte que 
+                                pueden ser usados para determinar precios objetivo para abrir o cerrar una posición en el mercado. Para entender mejor este concepto, podemos observar en el siguiente gráfico para 
+                                el par EUR/USD una tendencia alcista con una serie de retrocesos de Fibonacci en los cuales hay alta probabilidad de que finalicen movimientos de retroceso bajista del precio 
+                                (aquí los retrocesos actúan como soportes) y en donde también existe la posibilidad de que el precio reanude su movimiento alcista general: <br>
+                                <div class="col-12 col-sm-12 text-center mb-3 mt-3">
+                                    <img src="../css/images/Retrocesos-de-Fibonacci.png" alt="Imagen del retroceso de Fibonacci">
+                                </div>
+                                <div class="alert alert-danger">
+                                    ATENCION: Los gráficos con imagenes solo serán presentados en explicaciones o ejemplos. En ejercicios importantes utilizaremos gráficos propios y más claros.
+                                </div> <br>
+                                ¿Donde puedo fijar los niveles de Fibonacci? <br>
+                                Para usar los retrocesos de Fibonacci en un gráfico de cotizaciones debemos saber donde colocar los anclajes o puntos a partir de los cuales serán calculados los niveles respectivos. 
+                                En primer lugar esto depende de si estamos ante una tendencia alcista o bajista. En caso de que el mercado esté en una tendencia alcista se coloca el punto de anclaje 0% (Nivel 0%) 
+                                en el máximo alcanzado y el punto 100% (Nivel 100%) en el mínimo alcanzado. <br> 
+                                Si se toma como ejemplo el gráfico anterior se puede observar como el precio rebotó en varias ocasiones en los niveles 23.6% y 38.2%, los cuales son niveles conocidos y determinados 
+                                de antemano y que pueden emplearse como guías para abrir o cerrar posiciones. Si bien puede pensarse que lo ocurrido en este ejemplo es solo casualidad, la realidad es que este tipo 
+                                de relaciones ocurre con frecuencia en todos los gráficos sin importar el marco de tiempo que se emplee, sea de 5 minutos, 1 hora o 1 semana.En ese mismo gráfico se muestra un ejemplo 
+                                de lo que pudo haber sido un trade empleando los niveles de Fibonacci. En este caso se muestra una buena relación Ganancia/Pérdida, ya que la distancia entre el precio de entrada y 
+                                el Stop Loss (nivel de Fibonacci inferior) es bastante menor a la distancia de la entrada al precio objetivo de toma de ganancias. De esta manera los retrocesos de Fibonacci 
+                                constituyen una buena herramienta para fijar Stop Loss, Take Profit y para operar con un buen radio de Ganancia/Pérdida. <br>
+                                <b>Ejemplos del uso de Fibonacci en gráficos:</b>
+                                <div class="col-12 col-sm-12 text-center mb-3 mt-3">
+                                    <img class="little-img" src="../css/images/GraficoUno.png" alt="Gráfico de ejemplo">
+                                </div>
+                                En el gráfico anterior es posible observar como se colocaron los niveles de Fibonacci en los extremos de una tendencia que duró aproximadamente un mes durante el cual las cotizaciones 
+                                cayeron de casi 1.2800 a 1.1925. Seguidamente, el precio durante el siguiente año (9 meses aproximadamente) fluctuó y se consolidó en los niveles 23.6%, 38.2% y 61.8% para finalmente 
+                                caer y terminar atravesando el nivel 0.0% continuando con la tendencia general del mercado.En el siguiente gráfico se procede a mover los puntos de anclaje a partir de los cuales se 
+                                colocan los niveles de Fibonacci después de que el precio alcanza nuevos valores mínimos. Se puede observar como las consolidaciones de los niveles anteriores en la mayoría de los 
+                                casos, continuan coincidiendo con los nuevos niveles. En este caso pudo haberse dejado el nivel de Fibonacci más alto anclado en el máximo donde estaba con anterioridad, no obstante 
+                                esto queda a criterio del operador el cual podría considerar en su lugar colocarlo en alguno de los puntos máximos más recientes por lo cual en este ejemplo fue corrido. <br> 
+                                En el gráfico siguiente, movemos los anclajes de la herramienta Fibonacci cuando al precio alcanza nuevos extremos mínimos, y observamos como las consolidaciones en los antiguos niveles 
+                                siguen, en su mayoría, coincidiendo con los nuevos niveles. También podría haber dejado el máximo anclado donde estaba anteriormente, pero lo más probable es que la mayoría de operadores 
+                                estuvieran ya considerando los máximos más recientes. Las flechas rojas en los gráficos sirven para indicar el desplazamiento del anclaje de la herramienta de Fibonacci.
+                                <div class="col-12 col-sm-12 text-center mb-3 mt-3">
+                                    <img class="little-img" src="../css/images/GraficoDos.png" alt="Gráfico de ejemplo">
+                                </div>
+                                Otra observación que se puede hacer con el gráfico anterior es que en este caso el anclaje de máximos de mantiene al mismo nivel de precios que el anterior ya que ambos coinciden. 
+                                Lo que ha variado es el anclaje mínimo, el cual se ha colocado en el nuevo extremo mínimo que ha sido alcanzado por las cotizaciones del activo. Otra vez se desarrollan breves 
+                                consolidaciones en los niveles 38.2% y 23.6% lo que indica que el comportamiento del precio tiene en consideración estos nuevos niveles. Conforme pasa el tiempo y el mercado sigue 
+                                su curso los niveles de Fibonacci deben reacomodarse nuevamente a los valores extremos más recientes. Con esto al mismo tiempo estamos dividiendo el gráfico en tramos más cortos 
+                                los cuales el operador puede utilizar como puntos de entrada como se ve a continuación:
+                                <div class="col-12 col-sm-12 text-center mb-3 mt-3">
+                                    <img class="little-img" src="../css/images/GraficoTres.png" alt="Gráfico de ejemplo"> 
+                                </div>
+                                En el siguiente gráfico se ha movido nuevamente el anclaje inferior de los niveles de Fibonacci hasta un nuevo mínimo. Se puede observar como las consolidaciones anteriores 
+                                nuevamente vuelven a coincidir con los nuevos niveles, los cuales logicamente están corridos. Por ejemplo el nivel que anteriormente era de 23.6%, ahora es de 38.2% y lo mismo 
+                                ocurre con los demás. En este punto hay que considerar que esto no es para nada una coincidencia, sino la manera en que funciona esta herramienta de análisis de tal forma que 
+                                las cotizaciones del mercado tienden a respetar estos niveles en múltiples ocasiones. Generalmente los niveles donde se producen las consolidaciones más fuertes suelen mostrarse 
+                                muy claros cuando se efectúa un análisis mediante los retrocesos de Fibonacci. <br>
+                                Aspectos para remarcar: <br>
+                                <ul>
+                                    <li>
+                                        Es importante que los retrocesos o niveles de Fibonacci sean calculados unicamente después de que ha sido confirmado el fin de una tendencia, es decir cuando ha alcanzado un 
+                                        máximo o mínimo. Nunca debe usarse esta herramienta durante una tendencia en desarrollo.
+                                    </li>
+                                    <li>
+                                        Si se toma en cuenta que toda tendencia forma parte de una tendencia más grande y de mayor plazo y a su vez está formada por tendencias menores, surge la duda de sobre cual de 
+                                        estas tendencias se deben calcular los retrocesos de Fibonacci. En realidad no existe una respuesta sencilla para esta pregunta. Solamente se puede decir que se deben usar los 
+                                        niveles de Fibonacci en aquellas tendencias que den señales claras de finalización. 
+                                    </li>
+                                    <li>
+                                        En general las tendencias débiles experimentan un retroceso en el nivel 31.8% mientras que las tendencias fuertes suelen presentar retrocesos en el nivel 61.8% antes de retomar la 
+                                        dirección original.
+                                    </li>
+                                    <li>
+                                        El empleo de los niveles de Fibonacci no deja de tener sus detractores, sobre todo aquellos que basan sus críticas en los fundamentos de la Teoría del Paseo Aleatorio. Estos críticos 
+                                        argumentan que no existe ninguna justificación para afirmar que los movimientos de las cotizaciones tengan motivo o razón alguna para respectar los niveles dee Fibonacci donde se supone 
+                                        que hay retrocesos.
+                                    </li>
+                                    <li>
+                                        Algunos autores hablan más bien de zonas críticas ubicadas entre los niveles 33% a 38.2% y 61.8% a 67% en lugar de los niveles propiamente dichos.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="extra_options">
+            <div class="col-8 col-sm-8 fixed-bottom p-1">
+                <button class="btn btn-warning" id="btn-abrir-popup">Chat</button>
+                <a href="#trading"><button class="btn btn-warning">Trading</button></a>
+            </div>
+            <div class="overlay" id="overlay">
+                <div class="popup">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 text-end">
+                                <a class="text-warning" id="cerrar-popup"><i class="fas fa-times"></i></a>
+                                <div class="card card-person">
+                                    <div class="card-body">
+                                        <p class="p-card-person">
+                                            Por favor introduce tu correo electronico o tu número de teléfono junto con tu nombre 
+                                            de usuario para realizar tus consultas. Nos comunicaremos con usted en la brevedad.
+                                        </p>
+                                    </div>
+                                </div>
+                                <form action="mensaje_es.php" method="POST">
+                                    <div class="input-group">
+                                        <input class="form-control" aria-label="With textarea" placeholder="Mensaje" name="mensaje" id="mensaje" required></input>
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-info input-group-text"><i class="fas fa-paper-plane"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -312,11 +652,15 @@ if (!isset($_SESSION['usuario'])) {
             </div>
         </section>
     </main>
-    <a href="close_session.php">
-        <button class="btn btn-danger">CERRAR</button>
-    </a>
+
+    <div class="col-12 col-sm-12 text-end p-1">
+        <a href="close_session.php">
+            <button class="btn btn-danger">CERRAR</button>
+        </a>
+    </div>
 
     <script src="../js/scroll.js"></script>
+    <script src="../js/popup.js"></script>
 
 </body>
 </html>

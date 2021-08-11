@@ -53,7 +53,7 @@
     left: unset;
 }
 .body {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(22, 22, 22);
     transition: .5 ease all;
     font-size: 20px;
 }
@@ -283,7 +283,50 @@ a[aria-expanded="true"] {
     height: 300px;
     overflow: auto;
 }
-
+#trading a {
+    color: rgb(255, 196, 0);
+}
+#trading .card-data {
+    margin-top: 5%;
+}
+#trading .card-header {
+    font-size: 25px;
+}
+#trading .card-body {
+    font-size: 20px;
+    height: 300px;
+    overflow: auto;
+}
+#trading img {
+    height: 200%;
+    width: 70%;
+}
+#trading .little-img {
+    height: 150%;
+    width: 50%;
+}
+/*popup*/
+.overlay {
+    background-color: rgba(148, 135, 94, 0.308);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.overlay.active {
+    visibility: visible;
+}
+.card-person {
+    width: 300px;
+}
+.p-card-person {
+    font-size: 15px;
+}
 /*scroll-progress*/
 #scroll-progress {
     position: fixed;
