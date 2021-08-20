@@ -27,7 +27,7 @@ if (mysqli_num_rows($validar_login) > 0) {
         window.location = "login";
     </script>
     ';
-
+       
     exit();
 
 }

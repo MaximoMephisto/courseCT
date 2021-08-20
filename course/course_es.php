@@ -614,6 +614,21 @@ if (!isset($_SESSION['usuario'])) {
                                 </ul>
                             </div>
                         </div>
+                        <div class="col-12 col-sm-12 text-center mt-5">
+                            <a href="#">
+                                <h3>
+                                    Principales diez cripromonedas en el mercado y monedas que estan en pre-venta
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 text-center mt-5">
+                                <iframe src="https://es.widgets.investing.com/top-cryptocurrencies?theme=darkTheme&hideTitle=true" width="100%" height="415" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
+                            </div>
+                            <div class="col-12 col-sm-6 text-center mt-5">
+                                <iframe src="https://es.widgets.investing.com/ico-calendar?theme=darkTheme&hideTitle=true" width="100%" height="415" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -639,7 +654,7 @@ if (!isset($_SESSION['usuario'])) {
                                 </div>
                                 <form action="mensaje_es.php" method="POST">
                                     <div class="input-group">
-                                        <input class="form-control" aria-label="With textarea" placeholder="Mensaje" name="mensaje" id="mensaje" required></input>
+                                        <input class="form-control" aria-label="With textarea" placeholder="Mensaje" value="<?php echo "¡Hola! soy " . $_SESSION['usuario'] . " y..."; ?>" name="mensaje" id="mensaje" required></input>
                                         <div class="input-group-prepend">
                                             <button class="btn btn-info input-group-text"><i class="fas fa-paper-plane"></i></button>
                                         </div>
@@ -655,7 +670,7 @@ if (!isset($_SESSION['usuario'])) {
 
     <div class="col-12 col-sm-12 text-end p-1">
         <a href="close_session.php">
-            <button class="btn btn-danger">CERRAR</button>
+            <button class="btn btn-danger">Cerrar sesión</button>
         </a>
     </div>
 
