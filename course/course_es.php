@@ -50,6 +50,19 @@ if (!isset($_SESSION['usuario'])) {
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Ayuda</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Apartados
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#init">Principal</a>
+                        <a class="dropdown-item" href="#trading">Trading</a>
+                        <a class="dropdown-item" href="#estrategias">Estrategias</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../index.php">Ir a página principal</a>
+                        <a class="dropdown-item" href="close_session.php">Cerrar sesión</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="m-lg-3">
