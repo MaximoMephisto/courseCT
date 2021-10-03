@@ -5,10 +5,10 @@ let lineChart = new Chart(CHART, {
     data: data = {
         labels: ["1 hour", "2 hour", "3 hour", "4 hour", "5 hour", "6 hour", "7 hour"],
         datasets: [{
-            label: 'Bitcoin',
+            label: 'Your investment',
             data: [65, 60, 65, 55, 60, 55, 80],
             fill: false,
-            borderColor: 'rgb(248, 85, 26)',
+            borderColor: '#0d6efd',
             tension: 0.1
         }]
     }
