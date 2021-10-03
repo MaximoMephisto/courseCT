@@ -17,25 +17,31 @@
 /******/
 /*Page*/
 /******/
-#body {
+.body {
     background-color: #f2f2f2;
     color: #120907;
     font-size: 20px;
+    transition: all .5s;
 }
-#body a {
+.body.light {
+    background-color: #a5d2fc;
+    color: #009b6a;
+    font-size: 20px;
+}
+.body a {
     text-decoration: none;
     color: black;
     display: inline-block;
     position: relative;
     transition: all .5s;
 }
-#body p {
+.body p {
     font-size: 15px;
 }
-#body .after-decoration:hover {
+.body .after-decoration:hover {
     color: #0d6efd;
 }
-#body .after-decoration:after {
+.body .after-decoration:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -47,7 +53,7 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 } 
-#body .after-decoration:hover:after {
+.body .after-decoration:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }

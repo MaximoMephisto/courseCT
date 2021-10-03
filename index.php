@@ -14,7 +14,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.js" integrity="sha512-lUsN5TEogpe12qeV8NF4cxlJJatTZ12jnx9WXkFXOy7yFbuHwYRTjmctvwbRIuZPhv+lpvy7Cm9o8T9e+9pTrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body id="body">
+<body class="body">
     <header id="header">
         <nav>
             <div class="container-fluid">
@@ -62,7 +62,7 @@
                     </ul>
                 </div>
                 <div class="d-inline">
-                    <div id="switch">
+                    <div id="switch" class="btnSwitch">
                         <button class="btn btn-outline-primary">
                             <i class="fas fa-lightbulb"></i>
                         </button>
@@ -194,5 +194,6 @@
     </footer>
     <script src="js/myChart.js"></script>
     <script src="js/barChart.js"></script>
+    <script src="js/theme.js"></script>
 </body>
 </html>
