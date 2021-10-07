@@ -187,7 +187,7 @@
                     <a class="after-decoration" href="">Notice</a>
                 </div>
                 <div class="col-6 col-sm-3 mt-4 text-center">
-                    <a class="after-decoration" href="">Report</a>
+                    <a class="after-decoration" href="">Company policy</a>
                 </div>
             </div>
         </div>
