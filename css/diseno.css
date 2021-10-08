@@ -126,7 +126,8 @@ header i {
 /*login*/
 /*******/
 #body_login {
-    background-color: whitesmoke;
+    background-image: url("images/gif.gif");
+
 }
 .h1-login {
     font-size: 100px;
@@ -134,7 +135,7 @@ header i {
 }
 #body_login .modal-content {
     margin-top: 50%;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.364);
 }
 #body_login textarea {
     background-color: transparent;

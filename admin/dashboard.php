@@ -78,6 +78,11 @@ if (!isset($_SESSION['admin'])) {
                             <canvas id="chartOne" width="80" height="30"></canvas>
                         </div>
                     </div>
+                    <div class="col-12 col-sm-6 mt-5">
+                        <div class="card">
+                            <canvas id="adminChartTwo" width="80" height="30"></canvas>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

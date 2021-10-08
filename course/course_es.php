@@ -60,7 +60,7 @@ if (!isset($_SESSION['usuario'])) {
                         <a class="dropdown-item" href="#estrategias">Estrategias</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="../index.php">Ir a página principal</a>
-                        <a class="dropdown-item" href="close_session.php">Cerrar sesión</a>
+                        <a class="dropdown-item" href="../php/close_session.php">Cerrar sesión</a>
                         </div>
                     </li>
                 </ul>
