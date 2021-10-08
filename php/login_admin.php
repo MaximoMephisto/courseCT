@@ -26,7 +26,7 @@ if(mysqli_num_rows($validacion) > 0 ) {
     echo '
         <script>
             alert("Incorrect data");
-            window.location = "login_admin";
+            window.location = "../index";
         </script>
     ';
 
