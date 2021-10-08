@@ -109,10 +109,7 @@ if (!isset($_SESSION['admin'])) {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
+                                        <?php include '../php/get_user.php'; ?>
                                     </tbody>
                                 </table>
                             </div>

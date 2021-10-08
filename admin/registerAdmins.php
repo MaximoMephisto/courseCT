@@ -12,6 +12,7 @@ if (!isset($_SESSION['admin'])) {
 
     session_destroy();
     die();
+
 }
 
 ?>
@@ -103,15 +104,11 @@ if (!isset($_SESSION['admin'])) {
                                 <table class="table table-bordered">
                                     <thead class="table-dark text-center">
                                         <tr>
-                                            <th>Name</th>
                                             <th>Mail</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
+                                    <tbody>                                       
+                                        <?php include '../php/get_admin.php'; ?>
                                     </tbody>
                                 </table>
                             </div>
