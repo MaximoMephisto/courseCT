@@ -1,13 +1,11 @@
 <?php 
 
 $conexion = mysqli_connect("localhost", "root", "", "cursoct");
-
 /*
 if ($conexion) {
-    echo "Conectado exitosamente";
+    echo "Conexión satisfactoria";
 } else {
-    echo "Error al tratar de conectarse";
+    echo "Error al intentar conectar";
 }
 */
-
 ?>
