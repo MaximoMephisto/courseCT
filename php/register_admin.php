@@ -2,18 +2,15 @@
 
 include '../conn.php';
 
-$nombre = $_POST['txtNombre'];
 $correo = $_POST['txtCorreo'];
 $clave = $_POST['txtClave'];
 $clave = hash('sha512', $clave);
 
 $query = 
-    "INSERT INTO usuarios (
-        nombre,
+    "INSERT INTO administradores (
         correo,
         clave
     ) VALUES (
-        '$nombre',
         '$correo',
         '$clave'
     );"
@@ -21,7 +18,6 @@ $query =
 
 $verificacion = mysqli_query($conexion,
     "SELECT 
-        nombre,
         correo,
         clave
     FROM usuarios
@@ -32,7 +28,7 @@ if (mysqli_num_rows($verificacion) > 0 ) {
     echo '
     <script>
         alert("Error with user");
-        window.location = "../admin/registerUsers";
+        window.location = "register_admin";
     </script>
     ';
 
@@ -52,7 +48,7 @@ if ($ejecutar) {
     echo '
     <script>
         alert("Lamentamos no poder registrar el usuario, revise bien los datos");
-        window.location = "../admin/registerUsers"
+        window.location = "register_admin" 
     </script>
     ';
 }

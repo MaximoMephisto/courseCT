@@ -21,7 +21,7 @@ if (!isset($_SESSION['admin'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMIN | Dashboard</title>
+    <title>Admin | Register Admins</title>
     <link rel="icon" type="image/png" href="../css/images/CT-logo.png">
     <link rel="stylesheet" href="../css/diseno.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
@@ -52,13 +52,13 @@ if (!isset($_SESSION['admin'])) {
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="dashboard">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="registerUsers">Users</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="registerAdmins">Admins</a>
+                                <a class="nav-link" href="#">Admins</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../php/close_session.php">Close session</a>
@@ -70,30 +70,56 @@ if (!isset($_SESSION['admin'])) {
         </nav>
     </header>
     <main>
-        <section>
-            <div class="container-fluid">
+        <section id="register_users">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 mt-5 text-center">
+                        <h2>Admins</h2>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12 col-sm-6 mt-5">
                         <div class="card">
-                            <canvas id="chartOne" width="80" height="30"></canvas>
+                            <div class="card-header">
+                                <h3 class="text-center">Register</h3>
+                            </div>
+                            <div class="card-body">
+                                <form action="../php/register_admin.php" method="POST">
+                                    <input type="text" placeholder="Mail" name="txtCorreo" id="txtCorreo" class="form-control my-1">
+                                    <input type="password" placeholder="Password" name="txtClave" id="txtClave" class="form-control my-1">
+                                    <div class="col-12 col-sm-12 mt-3 text-end">
+                                        <button class="btn btn-dark">Save</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-5">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="text-center">Admins list</h3>
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-bordered">
+                                    <thead class="table-dark text-center">
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Mail</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <!-- DETAILS -->
-                </div>
-            </div>
-        </section>
     </main>
-    <footer>
-        <!-- SIMPLE FOOTER -->
-    </footer>
-    <script src="../js/adminCharts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 </body>
 </html>

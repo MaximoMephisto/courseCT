@@ -125,33 +125,45 @@ header i {
 /*******/
 /*login*/
 /*******/
-#body-login {
-    background-color: rgb(17, 17, 17);
+#body_login {
+    background-color: whitesmoke;
 }
 .h1-login {
     font-size: 100px;
-    color: rgb(187, 51, 1);
+    color: #0d6efd;
 }
-#body-login .modal-content {
+#body_login .modal-content {
     margin-top: 50%;
-    background-color: rgba(0,0,0,.3);
+    background-color: whitesmoke;
 }
-#body-login textarea {
-    background-color: rgba(0,0,0,.3);
-    border-color: rgb(187, 51, 1);
+#body_login textarea {
+    background-color: transparent;
+    border-color: #0d6efd;
 }
-#body-login input {
-    background-color: rgba(0,0,0,.3);
-    border-color: rgb(187, 51, 1);
-}
-#body-login .btn-person {
-    background-color: rgb(187, 51, 1);
+#body_login input {
+    background-color: transparent;
+    border-color: #0d6efd;
 }
 .h3-login {
-    color: black;
+    color: #1dffb9;
     margin-right: 15px;
 }
 
+/****************/
+/*administración*/
+/****************/
+#register_users h2, h3 {
+    color: #0d6efd;
+}
+#register_users .form-control {
+    border: none !important;
+    border-bottom: 1px solid #0d6efd !important;
+    border-radius: 0 !important;
+}
+#register_users .card {
+    height: 280px;
+    overflow: hidden;
+}
 /**********/
 /*lenguaje*/
 /**********/
