@@ -22,8 +22,10 @@ if (!isset($_SESSION['usuario'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CT</title>
+    <link rel="icon" type="image/png" href="../css/images/CT-logo.png">
     <link rel="stylesheet" href="../css/diseno.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ff041f84fb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../css/fontawesome/css/fontawesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -34,7 +36,7 @@ if (!isset($_SESSION['usuario'])) {
 </head>
 <body id="body-course">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand p-1" href="#">CT</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -648,8 +650,8 @@ if (!isset($_SESSION['usuario'])) {
         </section>
         <section id="extra_options">
             <div class="col-8 col-sm-8 fixed-bottom p-1">
-                <button class="btn btn-warning" id="btn-abrir-popup">Chat</button>
-                <a href="#trading"><button class="btn btn-warning">Trading</button></a>
+                <button class="btn btn-outline-light" id="btn-abrir-popup">Chat</button>
+                <a href="#trading"><button class="btn btn-outline-light">Trading</button></a>
             </div>
             <div class="overlay" id="overlay">
                 <div class="popup">
@@ -683,7 +685,7 @@ if (!isset($_SESSION['usuario'])) {
 
     <div class="col-12 col-sm-12 text-end p-1">
         <a href="close_session.php">
-            <button class="btn btn-danger">Cerrar sesión</button>
+            <button class="btn btn-outline-danger">Cerrar sesión</button>
         </a>
     </div>
 
