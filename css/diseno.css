@@ -169,16 +169,26 @@ header i {
 /*lenguaje*/
 /**********/
 #body-lenguaje {
-    background-color: gray;
+    background-image: url("images/gifTwo.gif");
 }
 #body-lenguaje .bienvenida {
     font-size: 25px;
-    color: black;
+    color: #fffbf3;
+}
+#body-lenguaje a, .user-name {
+    text-decoration: none;
+    color: #0d6efd;
+}
+#body-lenguaje .user-name:hover {
+    color: #fffbf3;
+}
+#body-lenguaje img {
+    width: 300px;
 }
 #body-lenguaje .card {
     width: 100%;
-    background-color: darkgray;
-    border-color: orangered;
+    background-color: transparent;
+    border-color: #0d6efd;
 }
 
 /********/
