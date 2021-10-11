@@ -23,7 +23,13 @@ curl_setopt_array($curl, array(
 ));
 
 $response = curl_exec($curl); // Send the request, save the response
+//$response = json_decode($response);
 print_r($response);
+
 curl_close($curl); // Close request
+
+
+
+
 
 ?> 
