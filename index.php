@@ -78,8 +78,7 @@
         </nav>
         <marquee  direction="left">
             <?php 
-                //include './php/prices.php';
-                echo 'Hello world';
+                include './php/prices.php';
             ?>
         </marquee>
     </header>
