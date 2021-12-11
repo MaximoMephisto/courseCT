@@ -76,12 +76,18 @@
                 </div>
             </div>
         </nav>
+        <marquee  direction="left">
+            <?php 
+                //include './php/prices.php';
+                echo 'Hello world';
+            ?>
+        </marquee>
     </header>
     <main id="main">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-sm-3 mt-5">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
                             <div class="col-12 col-sm-12 text-center">
                                 <span>
@@ -116,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-3 mt-5">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
                             <div class="col-12 col-sm-12 text-center">
                                 <span>
@@ -157,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 mt-5">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
                             <div class="col-12 col-sm-12 text-center">
                                 <span>

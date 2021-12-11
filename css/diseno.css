@@ -78,9 +78,6 @@
 .bg-person { /*This aplicated with navbar and footer*/
     background-color: white;
 }
-#main .card {
-    height: 550px;
-}
 #footer span {
     font-size: 50px;
     font-weight: bold;
